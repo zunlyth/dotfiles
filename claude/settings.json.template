@@ -1,0 +1,10 @@
+{
+  "env": {
+    "DISABLE_UPDATES": "1",
+    "CLAUDE_CODE_GIT_BASH_PATH": "{{CLAUDE_CODE_GIT_BASH_PATH}}"
+  },
+  "theme": "dark-daltonized",
+  "enabledPlugins": {
+    "rust-analyzer-lsp@claude-plugins-official": true
+  }
+}

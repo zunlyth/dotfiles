@@ -1,0 +1,16 @@
+# ---------------------------------------------------------------------------
+# Never commit credentials or machine state. This is defensive: the installer
+# never copies these into the repo, but a careless `cp -r` should not leak.
+# ---------------------------------------------------------------------------
+.credentials.yaml
+hosts.yml
+.claude.json
+*.bak
+*.tmp
+*.log
+
+# harness / editor state
+sessions/
+storages/
+node_modules/
+.vs/

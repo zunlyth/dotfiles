@@ -1,0 +1,14 @@
+[tools]
+bun = "latest"
+claude = "latest"
+git-lfs = "latest"
+github-cli = "latest"
+"github:NationalSecurityAgency/ghidra" = "Ghidra_12.1.4_build"
+"github:git-for-windows/git" = { version = "latest", asset_pattern = "Git-*-64-bit.tar.bz2", bin_path = "bin" }
+herdr = "latest"
+java = "temurin-21"
+node = "lts"
+pandoc = "latest"
+pnpm = "latest"
+python = "3.12.14"
+rust = "stable"
